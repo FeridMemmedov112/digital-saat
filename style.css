@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+ }
+
+
+
+
+
+.container{
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#hour{
+    width: 160px;
+    height: 160px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    font-size: 140px;
+}
+#minute{
+    width: 160px;
+    height: 160px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    font-size: 140px;
+}
+#seconds{
+    width: 160px;
+    height: 160px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    font-size: 140px;
+}
